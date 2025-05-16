@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUTA | Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&family=Great+Vibes&display=swap">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeSwitch">
+        <label for="darkModeSwitch" class="toggle-label">
+            <span class="toggle-icon moon">🌙</span>
+            <span class="toggle-icon sun">☀️</span>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="MUTA Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-main">
+        <div class="section-header">
+            <h2>Our Portfolio</h2>
+            <p class="section-subtitle">Where Vision Meets Reality</p>
+        </div>
+        
+        <div class="portfolio-filters">
+            <button data-filter="*" class="active">All Projects</button>
+            <button data-filter=".web">Web Design</button>
+            <button data-filter=".interior">Interior Design</button>
+            <button data-filter=".branding">Brand Integration</button>
+        </div>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item web">
+                <a href="assets/images/portfolio/web1-large.jpg" data-fancybox="gallery" data-caption="Luxury Resort Website">
+                    <img src="assets/images/portfolio/web1.jpg" alt="Luxury Resort Website">
+                    <div class="portfolio-overlay">
+                        <h3>Luxury Resort Website</h3>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-item interior">
+                <a href="assets/images/portfolio/interior1-large.jpg" data-fancybox="gallery" data-caption="Modern Office Space">
+                    <img src="assets/images/portfolio/interior1.jpg" alt="Modern Office Space">
+                    <div class="portfolio-overlay">
+                        <h3>Modern Office Space</h3>
+                        <p>Interior Design</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-item branding">
+                <a href="assets/images/portfolio/brand1-large.jpg" data-fancybox="gallery" data-caption="Boutique Hotel Branding">
+                    <img src="assets/images/portfolio/brand1.jpg" alt="Boutique Hotel Branding">
+                    <div class="portfolio-overlay">
+                        <h3>Boutique Hotel Branding</h3>
+                        <p>Brand Integration</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-item web">
+                <a href="assets/images/portfolio/web2-large.jpg" data-fancybox="gallery" data-caption="Fashion E-Commerce">
+                    <img src="assets/images/portfolio/web2.jpg" alt="Fashion E-Commerce">
+                    <div class="portfolio-overlay">
+                        <h3>Fashion E-Commerce</h3>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-item interior">
+                <a href="assets/images/portfolio/interior2-large.jpg" data-fancybox="gallery" data-caption="Luxury Apartment">
+                    <img src="assets/images/portfolio/interior2.jpg" alt="Luxury Apartment">
+                    <div class="portfolio-overlay">
+                        <h3>Luxury Apartment</h3>
+                        <p>Interior Design</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-item branding">
+                <a href="assets/images/portfolio/brand2-large.jpg" data-fancybox="gallery" data-caption="Restaurant Branding">
+                    <img src="assets/images/portfolio/brand2.jpg" alt="Restaurant Branding">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Branding</h3>
+                        <p>Brand Integration</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-item web">
+                <a href="assets/images/portfolio/web3-large.jpg" data-fancybox="gallery" data-caption="Corporate Portal">
+                    <img src="assets/images/portfolio/web3.jpg" alt="Corporate Portal">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Portal</h3>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-item interior">
+                <a href="assets/images/portfolio/interior3-large.jpg" data-fancybox="gallery" data-caption="Wellness Center">
+                    <img src="assets/images/portfolio/interior3.jpg" alt="Wellness Center">
+                    <div class="portfolio-overlay">
+                        <h3>Wellness Center</h3>
+                        <p>Interior Design</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2>Client Testimonials</h2>
+            <p class="section-subtitle">What our clients say about us</p>
+        </div>
+        
+        <div class="testimonial-slider">
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"MUTA transformed our brand identity completely. Their ability to blend our digital presence with our physical spaces was remarkable."</p>
+                    <div class="client-info">
+                        <h4>Sarah Johnson</h4>
+                        <p>CEO, Luxury Resorts Inc.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"The interior design work by Charmaine and her team exceeded all our expectations. They understood our vision perfectly."</p>
+                    <div class="client-info">
+                        <h4>Michael Chen</h4>
+                        <p>Director, TechForward</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"Our website traffic increased by 300% after MUTA's redesign. Their attention to detail is unmatched in the industry."</p>
+                    <div class="client-info">
+                        <h4>Amanda Rodriguez</h4>
+                        <p>Marketing Director, StyleHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/images/logo.png" alt="MUTA Logo">
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Get in Touch</h3>
+                <p>Email: info@muta.com</p>
+                <p>Phone: +27 12 345 6789</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 MUTA by Charmaine Ramaphala. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+</body>
+</html>
